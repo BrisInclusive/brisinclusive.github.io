@@ -1,0 +1,17 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Ben Garvey-Cubbon -- organiser -- @B_GarveyCubbon
+    Jon Gibbins -- organiser -- @dotjay
+    Léonie Watson -- organiser -- @LeonieWatson
+
+# THANKS
+
+    OVO Energy -- event sponsor -- https://www.ovoenergy.com/
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    GitHub Pages
