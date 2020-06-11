@@ -6,21 +6,33 @@ html {
 }
 body{
   color: #222;
-  /* font-family: "times new roman", serif; */
   font-size: 1em;
   line-height: 1.4;
   margin: 0;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
-header,
-main,
-footer{
+header {
+  width: 40em;
+  margin: 0 auto;
+}
+header img {
+  width: 100%;
+}
+header h1 {
+  padding: 0 0.5em;
+}
+#content {
   width: 40em;
   margin: 1em auto;
 }
 main {
   border: solid #000;
   border-width: 1px 0;
-  padding: 1em 0;
+  padding: 1em;
+}
+footer {
+  padding: 1em;
 }
 h1 {
   font-size: 2em;
@@ -31,11 +43,7 @@ h2 {
 h3 {
   font-size: 1em;
 }
-h2[id]:hover:after,
-h3[id]:hover:after,
-h4[id]:hover:after,
-h5[id]:hover:after,
-h6[id]:hover:after {
+h2[id]:hover:after {
   content: " – #"attr(id);
   color: #676767;
   font-size: 0.667em;
@@ -65,6 +73,18 @@ h6[id]:hover:after {
 @media all and (max-width: 736px) {
   body {
     max-width: auto;
+  }
+  header,
+  #content {
+    width: 100%;
+  }
+  header h1 {
+    font-size: 1.5em;
+    padding: 0 0.75em;
+  }
+  main,
+  footer {
+    padding: 1em;
   }
 }
 
