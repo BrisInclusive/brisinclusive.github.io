@@ -43,10 +43,15 @@ h2 {
 h3 {
   font-size: 1em;
 }
-h2[id]:hover:after {
-  content: " – #"attr(id);
+h2 a {
   color: #676767;
   font-size: 0.667em;
+  margin-left: .5em;
+  opacity: 0;
+}
+h2 a:focus,
+h2:hover a {
+  opacity: 1;
 }
 .sr-only {
   border: 0;
