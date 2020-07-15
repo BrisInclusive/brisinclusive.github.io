@@ -14,4 +14,7 @@ https://medium.com/@mikebroberts/give-your-meetup-a-code-of-conduct-d47143429e3a
 
 ## Diversity and equality
 
-Do we have a hearing loop?
+* [ ] Add an open license and link to template used
+  - https://creativecommons.org/licenses/by-sa/4.0/
+  - https://www.resourcecentre.org.uk/information/equality-and-diversity-policies-for-small-groups/
+* [ ] Do we have a hearing loop?
